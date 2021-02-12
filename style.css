@@ -1,0 +1,71 @@
+
+/*
+Theme Name: Demo
+Author: Razib
+Description: Bangladesh Goverment site
+Version: 1.0.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.mejs-iframe-overlay iframe{
+    width: 300px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.header{
+    background: #9E5BBA;
+}
+.header h4{
+    text-align: right;
+}
+.header span{
+    border-left: 2px solid #d1d1d1;
+    padding-left: 15px;
+}
+.form_main{
+    position: relative;
+}
+
+.pos_top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.icon{
+    text-align: right;
+}
+.icon i{
+    padding: 0 10px;
+    font-size: 40px;
+}
+.menu ul li a{
+    border-right: 1px solid #d1d1d1;
+    display: inline-block;
+    padding: 10px 30px !important;
+}
+.menu ul li a:hover{
+    background: #841561;
+}
+.marquee{
+    background: #d1d1d1;
+    padding: 15px 0;
+}
+.footer_menu ul{
+    display: flex;
+}
+.footer_menu ul li{
+    padding-right: 15px;
+}
